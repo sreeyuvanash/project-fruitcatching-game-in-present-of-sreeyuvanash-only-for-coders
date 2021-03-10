@@ -76,10 +76,10 @@ class Game{
             player.update();
         }
     
-        if (frameCount % 20 === 0) {
+        if (frameCount % 25 === 0) {
             fruits = createSprite(random(100, 1000), 0, 100, 100);
-            fruits.velocityY = 6;
-            var rand = Math.round(random(1,5));
+            fruits.velocityY = random(5,8);
+            var rand = Math.round(random(1,4));
             switch(rand){
                 case 1: fruits.addImage("fruit1",fruit1_img);
                 break;
@@ -89,8 +89,8 @@ class Game{
                 break;
                 case 4: fruits.addImage("fruit1", fruit4_img);
                 break;
-                case 5: fruits.addImage("fruit1", fruit5_img);
-                break;
+               // case 5: fruits.addImage("fruit1", fruit5_img);
+              //  break;
             }
             fruitGroup.add(fruits);
             
