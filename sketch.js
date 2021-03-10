@@ -9,7 +9,7 @@ var player1,player2;
 var players;
 var fruits;
 var fruitGroup;
-var fruit1_img, fruit2_img, fruit3_img, fruit4_img, fruit5_img;
+var fruit1_img, fruit2_img, fruit3_img, fruit4_img;
 var player_img;
 var player1score =0;
 var player2score =0;
