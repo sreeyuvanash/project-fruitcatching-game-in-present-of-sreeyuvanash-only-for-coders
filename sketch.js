@@ -21,7 +21,7 @@ function preload(){
   fruit2_img = loadImage("banana2.png");
   fruit3_img = loadImage("melon2.png");
   fruit4_img = loadImage("orange2.png");
-  fruit5_img = loadImage("/pineapple2.png");
+  fruit5_img = loadImage("pineapple2.png");
   fruitGroup = new Group();
 }
 function setup() {
